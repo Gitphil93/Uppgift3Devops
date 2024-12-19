@@ -27,7 +27,7 @@ jobs:
 
            - name: run tests
         run: |
-        npm test  
+        npm run test  
 
       
       - name: Upload artifact for deployment job
