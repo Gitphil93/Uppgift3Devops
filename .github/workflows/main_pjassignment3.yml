@@ -57,6 +57,6 @@ jobs:
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_92232923D71D4EDD8CDE3C36F8D247ED }}
 
-           - name: smoke test
+      - name: smoke test
         run: |
-          curl -X GET https://<PJSmokeTest>.azurewebsites.net/api/SmokeTest
+          curl -X GET https://pjsmoketest.azurewebsites.net/api/PJSmokeTest?code=2SbvmjKt94dmJamiLYF_6BjrPj1JaECWUS-7G_9I3eysAzFuGZuldg%3D%3D
